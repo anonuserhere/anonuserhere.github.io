@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#chart {
+  display: flex;
+  height: 65vh;
+  margin-bottom: 10px;
+  position: relative;
+  width: 99vw;
+}
+
+#index_link {
+  margin: 10px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+#gantry_container,
+#vehicle_container,
+#day_container,
+#erp_search,
+label {
+  margin: 2px;
+}
+
+#gantry_container {
+  max-width: 150px;
+}
+
+#erp_search {
+  border-radius: 5px;
+  color: antiquewhite;
+  background-color: blue;
+}
+
+#erp_search:hover {
+  cursor: pointer;
+}
